@@ -1,6 +1,7 @@
 <?php
 //This script will update missing records in the movieinfo table where the release has a imdbID set
 // credit goes to Tigggger
+//Save this file as /testing/update_missing_movies.php
 define('FS_ROOT', realpath(dirname(__FILE__)));
 require_once(FS_ROOT."/../../www/config.php");
 require_once(FS_ROOT."/../../www/lib/framework/db.php");
